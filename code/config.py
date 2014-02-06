@@ -14,17 +14,17 @@ password = raw_input()
 f.write('password=\'' + password + '\'\n')
 
 print 'First View Name'
-view1 = raw_input()
+view1name = raw_input()
 f.write('view1name=\'' + view1name + '\'\n')
 
-print 'View1 ID (ex. number at end of URL')
+print 'View1 ID (ex. number at end of URL)'
 view1 = raw_input()
 f.write('view1=\'' + view1 + '\'\n')
 
-print 'First View Name'
-view1 = raw_input()
+print 'Second View Name'
+view2name = raw_input()
 f.write('view2name=\'' + view2name + '\'\n')
 
-print 'View2 ID (ex. number at end of URL')
-view1 = raw_input()
+print 'View2 ID (ex. number at end of URL)'
+view2 = raw_input()
 f.write('view2=\'' + view2 + '\'\n')

@@ -16,7 +16,7 @@ If you do not have pip installed, please refer to the following link: http://www
 
 Once the zendesk library is installed, please configure the script by running config.py in terminal, and answering all questions:
 
-	cd documents/ZenScreen
+	cd documents/ZenScreen/code
 	python config.py
 
 Then please run the following command in terminal to confirm ZenScreen indeed works:
@@ -29,7 +29,7 @@ To view the script on your desktop background, so all ticket information is easi
 
 In Geektool, create a shell Geeklet, and input the directory of where the ZenScreen file is located.
 
-	python /Users/userxyz/documents/ZenScreen/zenscreen.py
+	python /Users/userxyz/documents/ZenScreen/code/zenscreen.py
 
 I would recommend having the sync interval set to 60 seconds.
 

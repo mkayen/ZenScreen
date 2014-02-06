@@ -3,11 +3,10 @@ import config1
 
 zendesk = Zendesk(config1.zendesksite, config1.email, config1.password)
 
-pending = zendesk.list_tickets(view_id=29012404)
-new = zendesk.list_tickets(view_id=30131640)
+pending = zendesk.list_tickets(view_id=config1.view1)
+new = zendesk.list_tickets(view_id=config1.view2)
 
-print "ETP Pending Tickets"
-print "(ticket #, date, requester id)"
+print config1.view1name
 print "--------------------------------------"
 
 for items in pending:
@@ -18,8 +17,7 @@ for items in pending:
 	print ticket, ' | ', date, ' | ', requester, ' | ', assignee 
 
 print "--------------------------------------"
-print "New Tickets"
-print "(ticket #, date, requester id)"
+print config1.view2name
 print "--------------------------------------"
 
 for items in new:

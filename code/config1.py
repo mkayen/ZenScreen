@@ -1,7 +1,0 @@
-zendesksite='https://divide.zendesk.com'
-email='max.kayen@enterproid.com'
-password='Nov91990'
-view1name='Pending Queue'
-view1='29012404'
-view2name='New Queue'
-view2='30131640'
